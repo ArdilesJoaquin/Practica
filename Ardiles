@@ -1,0 +1,22 @@
+Paso 1:Loguearse
+-git config --global user.name
+-git config --global user.email
+
+Paso 2:Iniciar un repositorio
+-git init
+
+Paso 3:Indicar que repositorio esta.
+-git remote -v --> ver
+-git remote remove origin --> borra
+-git remote add origin (link) --> añadis
+
+Paso 3.5:Verificar el estado del archivo
+-git status --> En rojo si no se hizo nada con este archivo. -->En verde listo
+para ser guardado. --> en gris guardado.
+
+Paso 4:Guardado
+-git add Archivo.txt 
+-git commit -m "..." --> Agrega una descripcion/nombre al archivo.
+-git branch -m main --> Hace una rama en main.
+-git push origin main --> "Empuja" el archivo hacia la rama en main.
+"Main" es igual a principal, es decir, es una rama principal.
