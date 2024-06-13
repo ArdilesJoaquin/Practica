@@ -20,4 +20,4 @@ Paso 4:Guardado
 -git branch -m main --> Hace una rama en main.
 -git push origin main --> "Empuja" el archivo hacia la rama en main.
 "Main" es igual a principal, es decir, es una rama principal.
-Papachita
+
