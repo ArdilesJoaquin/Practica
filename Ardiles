@@ -1,0 +1,27 @@
+Paso 1:Loguearse
+-git config --global user.name
+-git config --global user.email
+
+Paso 2:Iniciar un repositorio
+-git init
+¡OJO!
+Si deseas subir una carpeta, "git init" en "escritorio".
+Si es un archivo, "git init" en la carpeta que se encuentre este archivo.
+
+Paso 3:Indicar que repositorio esta.
+-git remote -v --> ver (Que link tiene)
+-git remote remove origin --> borra (El link actual)
+-git remote add origin (link) --> añadis (El link que tu pongas)
+
+Paso 3.5:Verificar el estado del archivo
+-git status --> En rojo si no se hizo nada con este archivo. -->En verde, listo
+para ser guardado. --> en gris, guardado.
+
+Paso 4:Guardado
+-git add "Archivo.txt" 
+-git commit -m "..." --> Agrega una descripcion/nombre al archivo.
+-git branch -m main --> Hace una rama en main.¡OJO! Si quieres subir un archi-
+vo el cual usaste "git clone" NO es necesario este paso. 
+-git push origin main --> "Empuja" el archivo hacia la rama en main.
+"Main" es igual a principal, es decir, es una rama principal.
+-git clone (Link del repositorio al cual deseas clonar) 
